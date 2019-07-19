@@ -1,19 +1,31 @@
 .cabecera {
   background-color: #012863;
   padding-bottom: 10px;
-  display: table;
-  width: 100%;
-    }
+  }
+
+
+  .navbar { background-color: #B89F57;text-align: center;}
+  .navbar .navbar-nav>.active>a:hover,.navbar .navbar-nav>li>a:hover, .navbar .navbar-nav>li>a:focus { background-color: #525252}
+  .navbar .navbar-nav>.active>a,.navbar .navbar-nav>.open>a,.navbar .navbar-nav>.open>a, .navbar .navbar-nav>.open>a:hover,.navbar .navbar-nav>.open>a, .navbar .navbar-nav>.open>a:hover, .navbar .navbar-nav>.open>a:focus { background-color: #080808}
+  .navbar { border-color: #080808}
+
+  .navbar .navbar-nav>li>a { color: #000000}
+  .navbar .navbar-nav>li>{ width: 180px;}
+  .navbar .navbar-nav>li>a:hover, .navbar .navbar-nav>li>a:focus { color: #FFFFFF}
+  .navbar .navbar-nav>.active>a,.navbar .navbar-nav>.open>a, .navbar .navbar-nav>.open>a:hover, .navbar .navbar-nav>.open>a:focus { color: #FFFFFF}
+  .navbar .navbar-nav>.active>a:hover, .navbar .navbar-nav>.active>a:focus { color: #FFFFFF}
+
+
+.navbar li {
+  width: 185px;
+
+}
 
 .menu{
   background-color: #b89f57;
-  width: 100%;
   text-align: center;
 }
 
-.fila{
-  width: 100%;
-}
 
 .cabecera-der{
     float: none;
@@ -66,6 +78,9 @@
   width: 100%;
   padding: 2px;
 
+}
+.navbar li {
+  width: 100%;
 }
 
 
