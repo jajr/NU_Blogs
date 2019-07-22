@@ -1,8 +1,6 @@
-.cabecera {
-  background-color: #012863;
-  padding-bottom: 10px;
-  }
-
+.html, .body {
+height: 100%;
+}
 
   .navbar { background-color: #B89F57;text-align: center;}
   .navbar .navbar-nav>.active>a:hover,.navbar .navbar-nav>li>a:hover, .navbar .navbar-nav>li>a:focus { background-color: #525252}
@@ -17,23 +15,26 @@
 
 
 .navbar li {
-  width: 185px;
-
-}
-
-.menu{
-  background-color: #b89f57;
+  width: 188px;
   text-align: center;
+
 }
 
+.cabecera {
+  background-color: #012863;
+  padding: 10px;
+}
 
-.cabecera-der{
-    float: none;
+#contenedor {
+  display: table;
+  width: 100%;
+  height: 100%
+}
+
+#cabecera-der{
     display: table-cell;
     vertical-align: bottom;
-    padding-top: 10px;
 }
-
 
 .icono-img {
   width: 30px;
@@ -42,32 +43,59 @@
 }
 
 .imgder {
+  float: right;
   width: 30%;
   padding: 2px;
-  float: right;
-  vertical-align:text-top;
-}
+  vertical-align: text-top;
+  }
+
+.imgizq {
+    float: left;
+    width: 30%;
+    padding: 2px;
+    vertical-align: text-top;
+    }
 
 .icohuman {
   width: 30px;
-  }
-.centra{
-  text-align: center;
+  float: left;
+}
+.busqueda{
+ width: 98%;
+ margin: 5px
 }
 
-@media (max-width: 770px) {
-  .icono-img{
+
+
+@media (min-width:1021px) and (max-width:1440px) {
+  .navbar li {
+    width: 150px;
+  }
+}
+
+
+@media (min-width:601px) and (max-width:1020px) {
+  .navbar li {
+    width: 110px;
+  }
+}
+
+
+@media (max-width: 601px) {
+
+.icono-img{
     float: right;
+
   }
 
 .cabecera {
   text-align: center;
-  display: block;
 }
 
-.cabecera-izq{
-    padding-top: 10px;
+.cabecera-der{
     text-align: center;
+    padding-top: 10px;
+
 }
 
 .right-column {
@@ -77,8 +105,12 @@
 .imgder {
   width: 100%;
   padding: 2px;
-
 }
+
+.imgizq {
+  width: 100%;
+  padding: 2px;}
+
 .navbar li {
   width: 100%;
 }

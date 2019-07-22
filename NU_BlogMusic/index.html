@@ -9,20 +9,26 @@
     <title>NextU MyMusicBlog</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row cabecera">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <img src="img/logo.png" class="logo-img">
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 cabecera-der">
-            <a href="https://www.youtube.com/user/yoguimichi" target="_blank"><img src="img/icono_youtube.jpg" class="icono-img" ></a>
-            <a href="https://www.facebook.com/yoguimichi" target="_blank"><img src="img/icono_facebook.jpg" class="icono-img" ></a>
-            <a href="https://www.instagram.com/yoguimichi/" target="_blank"><img src="img/icono_instagram.jpg" class="icono-img" ></a>
-            <a href="https://www.pinterest.es/yoguimichi/" target="_blank"><img src="img/icono_pinterest.jpg" class="icono-img" ></a>
-            <a href="https://twitter.com/yoguimichi" target="_blank"><img src="img/icono_twitter.jpg" class="icono-img" ></a>
-        </div>
-      </div>
 
+    <div class="container">
+      <header>
+        <div class="row cabecera">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <img src="img/logo.png" class="logo-img">
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div id="contenedor">
+              <div id="cabecera-der">
+                <a href="https://www.youtube.com/user/yoguimichi" target="_blank"><img src="img/icono_youtube.jpg" class="icono-img" ></a>
+                <a href="https://www.facebook.com/yoguimichi" target="_blank"><img src="img/icono_facebook.jpg" class="icono-img" ></a>
+                <a href="https://www.instagram.com/yoguimichi/" target="_blank"><img src="img/icono_instagram.jpg" class="icono-img" ></a>
+                <a href="https://www.pinterest.es/yoguimichi/" target="_blank"><img src="img/icono_pinterest.jpg" class="icono-img" ></a>
+                <a href="https://twitter.com/yoguimichi" target="_blank"><img src="img/icono_twitter.jpg" class="icono-img" ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
       <div class="row">
         <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -46,8 +52,17 @@
           <div class="row">
             <div class="col-md-12">
               <h3>Una mirada a Pedro Suarez Vertiz</h3>
-              <p class="text-justify">Es quizas el rockero peruano mas famoso, desde sus tiempos de Arena Hash y sus clasicos 'Cuando la cama me da vueltas' o 'Me resfrie en Brasil'</p>
               <img src="img/PedroSuarezVertiz.jpg" class="imgder">
+              <p class="text-justify">Es quizas el rockero peruano mas famoso, desde sus tiempos de Arena Hash y sus clasicos 'Cuando la cama me da vueltas' o
+                'Me resfrie en Brasil' hizo bailar a toda una generacion que sufria el terrorismo y los apagones.Arena Hash marco una era en el rock peruano junto a otros grupos de los 80s, como Rio, Dudo, etc.Pedro le dio su toque personal, unico que lo hizo ser el mejor.
+                <br>
+                Luego de la separacion del grupo, Pedro logro cimentar una espectacular carrera como solista dandonos exitos como 'Lo Olvide', 'No pense que era amor',
+                'Cuando pienses en volver' su exito dedicado a los inmigrantes del mundo, que hizo soltar mas de una lagrima a los peruanos alrededor del mundo.
+                <br>
+                Un desorden nervioso muscular, nos privo de seguir escuchandolo, pero su legado musical siempre estara en el corazon de todos aquellos que amamos su musica,
+                hoy ya retirado de los escenarios su musica sigue viva, y como dice el dicho, cada dia canta mejor.
+              </p>
+
             </div>
 
           </div>
@@ -66,10 +81,17 @@
           <div class="row fila">
             <div class="col-md-12">
               <h3>Bohemian Rhapsody o el renacer de Queen</h3>
-
+              <img src="img/Queen.jpg" class="imgizq">
+              <p class="text-justify">
+                El exito de la pelicula Bohemian Rhapsody, ha sido espectacular, no solo ha hecho conocer a los mas jovenes la musica de una de los mejores grupos de rock de la historia,
+                sino tambien ha logrado que la imagen de Freddie Mercury vuelva a estar presente. Rami Malek logra realizar una interpretacion magistral que lo llevo a ganar el Oscar a mejor actor, y junto
+                a un extraordinario reparto logra hacernos viajar en el tiempo y vivir nuevamente como se conocieron, como alcanzaron la gloria, y como la vida alegre y desenfrenada
+                hizo que adquiriera el SIDA que finalmente lo llevo a la muerte. Queen volvia a vivir, una extraordinaria puesta en escena nos lleva al mitico concierto benéfico Live Aid en el estadio Wembley de Londres,y logro lo impensado,
+                hacernos sentir parte de ese concierto, sentir la musica vibrar en nuestra venas y vivir una experiencia inolvidable. Gracias Queen, gracias Freddie Mercury ....
+              </p>
             </div>
-
           </div>
+          <br>
           <div class="row ">
             <div class="col-xs-1">
               <img src="img/icon-human-person.jpg" class="icohuman">
@@ -82,7 +104,30 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-3 right-column ">
-          aqui toy
+          <div class="row busqueda">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+            <input type="text" id="busqueda" class="form-control">
+          </div>
+          <label for="busqueda">Buscar</label>
+          </div>
+          <div class="row">
+            <div class="list-group">
+               <a href="#" class="list-group-item">Arena Hash</a>
+               <a href="#" class="list-group-item">Rio</a>
+               <a href="#" class="list-group-item">Queen</a>
+               <a href="#" class="list-group-item">Rock Peruano</a>
+               <a href="#" class="list-group-item">Rock Clasico</a>
+               <a href="#" class="list-group-item">Musica de los 80s</a>
+               <a href="#" class="list-group-item">Freddie Mercury</a>
+               <a href="#" class="list-group-item">Pedro Suarez Vertiz</a>
+               <a href="#" class="list-group-item">John Lennon</a>
+               <a href="#" class="list-group-item">Hombres G</a>
+               <a href="#" class="list-group-item">Enanitos Verdes</a>
+            </div>
+
+
+          </div>
         </div>
       </div>
     </div>
