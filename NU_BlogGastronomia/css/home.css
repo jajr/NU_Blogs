@@ -1,11 +1,18 @@
-.logo-img{
-  width: 30%;
+.fondo {
+  background-color: #132f33;
 }
 
-img{
-  max-height: 129px;
+.img-fondo {
+  width: 100%;
 }
 
-div.secondary.callout.text-center{
-  min-height: 242px;
+.slogan {
+  color: #dbcc9a;
+  text-align: right;
+  font-family: cursive;
+
+}
+
+.blog {
+  margin:10px;
 }
