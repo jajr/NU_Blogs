@@ -13,6 +13,29 @@
 
 }
 
+.subtitulo{
+  color: #dbcc9a;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.textblog {
+  font-family: cursive;
+  text-align: justify;
+}
+
+
 .blog {
   margin:10px;
+  padding: 10px;
+}
+
+.menulateral{
+  list-style: none;
+  margin-left: auto;
+}
+
+.menulateral a {
+  color: #132f33 ;
 }
