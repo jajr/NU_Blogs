@@ -1,16 +1,54 @@
+.body-fondo {
+  background: url("../img/fondoRestaurant.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
 .fondo {
   background-color: #132f33;
+  opacity: 0.9;
+}
+
+.borde {
+  margin: 10px;
+}
+
+.fondo-blog {
+  background-color: #dbcc9a;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.fondo-post {
+  margin:10px;
+  padding: 10px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5%;
 }
 
 .img-fondo {
   width: 100%;
+  padding: 10px;
+  border-radius: 10%;
+  border-color: black;
+  border: 5px;
+  border-style:outset;
+  }
+
+.comentarios{
+  padding: 15px;
+  border-radius: 1%;
+  border-color: #132f33;
+  border: 5px;
+  border-style: solid;
+
 }
 
 .slogan {
   color: #dbcc9a;
   text-align: right;
   font-family: cursive;
-
 }
 
 .subtitulo{
@@ -23,6 +61,7 @@
 .textblog {
   font-family: cursive;
   text-align: justify;
+  margin: 10px;
 }
 
 
@@ -33,9 +72,14 @@
 
 .menulateral{
   list-style: none;
-  margin-left: auto;
 }
 
 .menulateral a {
   color: #132f33 ;
+}
+
+.menulateral a:hover {
+  background-color: #132f33;
+  color:white;
+
 }
