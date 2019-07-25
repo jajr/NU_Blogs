@@ -1,59 +1,69 @@
-.barra-superior{
-  min-height: 4rem;
+.body-fondo {
+  background: url("../img/fondoRutasPeru.jpg") no-repeat fixed;
+  background-size: cover;
 }
-div[class*="columna"]{
-  min-height: 50rem;
+
+.imglogo {
+  width: 100%;
 }
-div[class*="bloque"]{
-  height: 25rem;
-  overflow: scroll;
+
+.imglogosmall {
+  width: 200%;
 }
-.columna-chat, .columna-news{
+
+.textslogan {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.textblog {
+  font-family: cursive;
+  text-align: justify;
+}
+
+.tituloCard {
+   text-decoration: underline;
+}
+
+.barra-superior {
+  margin: 5px;
+  padding: 5px;
+}
+
+.columna {
   padding: 0 !important;
 }
-.contenedor-write-publicacion{
-  min-height: 7rem;
+
+.contenedor{
+  margin-top: 1rem;
+  padding: 0.5rem;
 }
+
 .contenedor-publicacion{
   min-height: 17rem;
 }
-.logo{
-  width: 40px;
-  margin-top: 0.5rem;
+
+.barra-superior-der {
+  margin-top: 10px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.imgBlog {
+  width: 30%;
   float: left;
+  padding: 5px;
+
 }
-.contenedor-noticias{
-  margin-top: 1rem;
-  min-height: 50rem;
-  padding: 0.5rem;
-}
-.responsive-img{
-  border: 0.6rem solid #ff8f00;
-  border-radius: 5px;
-}
-.buscar-campo{
-  float: left;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
-  width: 70%;
-}
-.barra-superior .row{
-  margin-bottom: 0;
-}
-.contenedor-botones{
-  margin-top: 1rem;
-}
-#publicacion-texto{
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  resize: none;
-  border: 1px solid #ff8f00;
-  background-color: #ff8f00;
-  height: 5rem;
-  color: #fff;
-}
+
 @media (max-width: 600px) {
-  .columna-grupos{
-    padding: 0 !important;
+  .imgBlog {
+    width: 100%;
+    float: left;
+    padding: 5px;
+
   }
 }
